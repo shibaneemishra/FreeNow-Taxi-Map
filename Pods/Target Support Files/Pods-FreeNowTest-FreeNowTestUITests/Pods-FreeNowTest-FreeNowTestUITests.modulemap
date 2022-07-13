@@ -1,0 +1,6 @@
+framework module Pods_FreeNowTest_FreeNowTestUITests {
+  umbrella header "Pods-FreeNowTest-FreeNowTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
