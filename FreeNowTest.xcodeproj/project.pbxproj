@@ -155,10 +155,8 @@
 		BE0B71BA2878325200C83191 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BE0B71C52878336400C83191 /* VehicleListController.swift */,
-				BE0B71C62878336400C83191 /* VehicleListController.xib */,
-				BEF0F4422878A46600003401 /* ListCell.swift */,
-				BEF0F4432878A46600003401 /* ListCell.xib */,
+				BE7DEFFF287F5B0000A043E2 /* Controller */,
+				BE7DF000287F5B0700A043E2 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,6 +219,24 @@
 			children = (
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		BE7DEFFF287F5B0000A043E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE0B71C52878336400C83191 /* VehicleListController.swift */,
+				BE0B71C62878336400C83191 /* VehicleListController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE7DF000287F5B0700A043E2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BEF0F4422878A46600003401 /* ListCell.swift */,
+				BEF0F4432878A46600003401 /* ListCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		BEB95AEB287807C000C1DE37 = {
